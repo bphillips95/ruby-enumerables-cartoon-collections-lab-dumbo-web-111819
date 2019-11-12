@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(source)
   source.include? {  |source| 
-   string.count > 4 
+   source[string].count > 4 
 }
 end
 
