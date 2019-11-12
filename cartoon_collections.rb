@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  array.map{|array,index| 
+  array.each_with_index|array,index| 
   puts index array[index]
   }
 
