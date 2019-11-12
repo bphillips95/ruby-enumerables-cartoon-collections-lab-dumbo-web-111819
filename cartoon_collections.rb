@@ -11,8 +11,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(source)
-  source.include? {  |source| 
-   source[index].count > 4 
+  source.any? {  |source| 
+   source.count > 4 
 }
 end
 
